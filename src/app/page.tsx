@@ -1,7 +1,7 @@
 const HomePage = () => (
-    <main>
-      <p>Hello World</p>
-    </main>
+  <main>
+    <p>Hello World</p>
+  </main>
 )
 
 export default HomePage

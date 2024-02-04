@@ -1,4 +1,6 @@
 export * from './Button'
 export * from './Container'
 export * from './SiteFooter'
+export * from './SiteHeader'
+export * from './Splash'
 export * from './Theme'

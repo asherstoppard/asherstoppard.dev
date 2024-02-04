@@ -4,8 +4,8 @@ import { SButton } from './Button.styled'
 type TButtonType = 'submit' | 'button' | 'reset'
 
 interface IButtonProps {
-  type: TButtonType
-  onClick: () => void
+  type?: TButtonType
+  onClick?: () => void
   href?: string
 }
 

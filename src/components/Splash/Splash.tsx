@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { Icon } from '@/components'
 import { Button } from '../Button'
 import { SButtonContainer, SSplashBackground, SSplashContent, SSplashImage } from './Splash.styled'
 
@@ -24,7 +25,7 @@ export const Splash: FC = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa fa-arrow-down" /> Download My CV
+          <Icon icon="arrow_downward" /> Download My CV
         </Button>
       </SButtonContainer>
     </SSplashContent>

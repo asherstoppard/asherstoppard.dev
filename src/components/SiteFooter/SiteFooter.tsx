@@ -5,8 +5,7 @@ export const SiteFooter = () => (
   <SSiteFooter>
     <Container>
       <p>
-        <i className="fa fa-copyright" /> <strong>Asher Stoppard Limited</strong>{' '}
-        {new Date().getFullYear()}
+        &copy; <strong>Asher Stoppard Limited</strong> {new Date().getFullYear()}
       </p>
       <p>
         <small>

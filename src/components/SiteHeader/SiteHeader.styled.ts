@@ -61,11 +61,21 @@ export const SNav = styled.nav<{ isNavOpen?: boolean }>`
 `
 
 export const SLink = styled.a`
-  display: block;
+  display: inline-flex;
   width: 100%;
   padding: 0.7rem 2rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
+
+  span {
+    display: block;
+    margin-right: 0.25rem;
+    text-decoration: none;
+  }
+
+  strong {
+    font-weight: 600;
+  }
 
   @media (min-width: 730px) {
     float: left;
@@ -75,7 +85,7 @@ export const SLink = styled.a`
     width: auto;
   }
 
-  &:hover {
+  &:hover strong {
     text-decoration: underline;
   }
 `

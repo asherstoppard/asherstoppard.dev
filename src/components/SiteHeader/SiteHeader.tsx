@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { SHeader, SHeaderContainer, SLink, SLogo, SNav, SNavTrigger } from './SiteHeader.styled'
+import { Icon } from '@/components'
 
 export const SiteHeader = () => {
   const [scrollPosition, setScrollPosition] = useState(0)
@@ -28,11 +29,11 @@ export const SiteHeader = () => {
         </SLogo>
         <SNav isNavOpen={isNavOpen}>
           <SLink href="mailto:asher@asherstoppard.com">
-            <i className="fa fa-envelope-o" /> asher@asherstoppard.com
+            <Icon icon="mail" /> <strong>asher@asherstoppard.com</strong>
           </SLink>
         </SNav>
         <SNavTrigger onClick={() => toggleNav(!isNavOpen)}>
-          <i className={`fa fa-${isNavOpen ? 'times' : 'bars'}`} />
+          <Icon icon={isNavOpen ? 'close' : 'menu'} />
         </SNavTrigger>
       </SHeaderContainer>
     </SHeader>

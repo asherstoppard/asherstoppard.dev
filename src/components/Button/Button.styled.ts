@@ -23,13 +23,13 @@ export const SButton = styled.button`
     box-shadow: 0 0 0 5px rgba(26, 21, 84, 0.5);
     padding: 1rem 5rem 1rem 3rem;
 
-    i {
+    span {
       top: 50%;
       transform: translate(0, -50%);
     }
   }
 
-  i {
+  span {
     position: absolute;
     right: 2rem;
     top: 0;

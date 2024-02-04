@@ -1,9 +1,9 @@
 'use client'
 
-import { PropsWithChildren } from 'react'
+import { FC, PropsWithChildren } from 'react'
 import { SiteFooter, SiteHeader, Theme } from '@/components'
 
-export const MainLayout = ({ children }: PropsWithChildren) => (
+export const MainLayout: FC<PropsWithChildren> = ({ children }) => (
   <Theme>
     <SiteHeader />
     {children}

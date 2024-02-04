@@ -1,4 +1,5 @@
 export * from './Button'
+export * from './CallToAction'
 export * from './Container'
 export * from './SiteFooter'
 export * from './SiteHeader'

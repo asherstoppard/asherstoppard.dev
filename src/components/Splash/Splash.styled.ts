@@ -45,6 +45,7 @@ export const SSplashContent = styled.div`
 
   p {
     font-size: 1.2rem;
+    font-weight: 200;
   }
 
   h1 {

@@ -1,3 +1,3 @@
 import data from './experienceData.json'
 
-export const GET = async () => Response.json({ data })
+export const GET = async () => Response.json(data)
